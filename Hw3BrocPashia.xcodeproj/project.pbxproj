@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5E10A50527B323160076F812 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A50427B323160076F812 /* Tests_iOS.swift */; };
+		5E10A50727B323160076F812 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A50627B323160076F812 /* Tests_iOSLaunchTests.swift */; };
+		5E10A51127B323160076F812 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A51027B323160076F812 /* Tests_macOS.swift */; };
+		5E10A51327B323160076F812 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A51227B323160076F812 /* Tests_macOSLaunchTests.swift */; };
+		5E10A51427B323160076F812 /* Hw3BrocPashiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A4EC27B3230F0076F812 /* Hw3BrocPashiaApp.swift */; };
+		5E10A51527B323160076F812 /* Hw3BrocPashiaApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A4EC27B3230F0076F812 /* Hw3BrocPashiaApp.swift */; };
+		5E10A51627B323160076F812 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A4ED27B3230F0076F812 /* ContentView.swift */; };
+		5E10A51727B323160076F812 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A4ED27B3230F0076F812 /* ContentView.swift */; };
+		5E10A51827B323160076F812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E10A4EE27B323150076F812 /* Assets.xcassets */; };
+		5E10A51927B323160076F812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E10A4EE27B323150076F812 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E10A50127B323160076F812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E10A4E727B3230E0076F812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E10A4F227B323160076F812;
+			remoteInfo = "Hw3BrocPashia (iOS)";
+		};
+		5E10A50D27B323160076F812 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E10A4E727B3230E0076F812 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E10A4F827B323160076F812;
+			remoteInfo = "Hw3BrocPashia (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5E10A4EC27B3230F0076F812 /* Hw3BrocPashiaApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hw3BrocPashiaApp.swift; sourceTree = "<group>"; };
+		5E10A4ED27B3230F0076F812 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		5E10A4EE27B323150076F812 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E10A4F327B323160076F812 /* Hw3BrocPashia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hw3BrocPashia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E10A4F927B323160076F812 /* Hw3BrocPashia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hw3BrocPashia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E10A4FB27B323160076F812 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		5E10A50027B323160076F812 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E10A50427B323160076F812 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		5E10A50627B323160076F812 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		5E10A50C27B323160076F812 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E10A51027B323160076F812 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		5E10A51227B323160076F812 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E10A4F027B323160076F812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A4F627B323160076F812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A4FD27B323160076F812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A50927B323160076F812 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E10A4E627B3230E0076F812 = {
+			isa = PBXGroup;
+			children = (
+				5E10A4EB27B3230F0076F812 /* Shared */,
+				5E10A4FA27B323160076F812 /* macOS */,
+				5E10A50327B323160076F812 /* Tests iOS */,
+				5E10A50F27B323160076F812 /* Tests macOS */,
+				5E10A4F427B323160076F812 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5E10A4EB27B3230F0076F812 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				5E10A4EC27B3230F0076F812 /* Hw3BrocPashiaApp.swift */,
+				5E10A4ED27B3230F0076F812 /* ContentView.swift */,
+				5E10A4EE27B323150076F812 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		5E10A4F427B323160076F812 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E10A4F327B323160076F812 /* Hw3BrocPashia.app */,
+				5E10A4F927B323160076F812 /* Hw3BrocPashia.app */,
+				5E10A50027B323160076F812 /* Tests iOS.xctest */,
+				5E10A50C27B323160076F812 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E10A4FA27B323160076F812 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E10A4FB27B323160076F812 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		5E10A50327B323160076F812 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E10A50427B323160076F812 /* Tests_iOS.swift */,
+				5E10A50627B323160076F812 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		5E10A50F27B323160076F812 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				5E10A51027B323160076F812 /* Tests_macOS.swift */,
+				5E10A51227B323160076F812 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E10A4F227B323160076F812 /* Hw3BrocPashia (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E10A51C27B323160076F812 /* Build configuration list for PBXNativeTarget "Hw3BrocPashia (iOS)" */;
+			buildPhases = (
+				5E10A4EF27B323160076F812 /* Sources */,
+				5E10A4F027B323160076F812 /* Frameworks */,
+				5E10A4F127B323160076F812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hw3BrocPashia (iOS)";
+			productName = "Hw3BrocPashia (iOS)";
+			productReference = 5E10A4F327B323160076F812 /* Hw3BrocPashia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E10A4F827B323160076F812 /* Hw3BrocPashia (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E10A51F27B323160076F812 /* Build configuration list for PBXNativeTarget "Hw3BrocPashia (macOS)" */;
+			buildPhases = (
+				5E10A4F527B323160076F812 /* Sources */,
+				5E10A4F627B323160076F812 /* Frameworks */,
+				5E10A4F727B323160076F812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hw3BrocPashia (macOS)";
+			productName = "Hw3BrocPashia (macOS)";
+			productReference = 5E10A4F927B323160076F812 /* Hw3BrocPashia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E10A4FF27B323160076F812 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E10A52227B323160076F812 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				5E10A4FC27B323160076F812 /* Sources */,
+				5E10A4FD27B323160076F812 /* Frameworks */,
+				5E10A4FE27B323160076F812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E10A50227B323160076F812 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 5E10A50027B323160076F812 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		5E10A50B27B323160076F812 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E10A52527B323160076F812 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				5E10A50827B323160076F812 /* Sources */,
+				5E10A50927B323160076F812 /* Frameworks */,
+				5E10A50A27B323160076F812 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E10A50E27B323160076F812 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 5E10A50C27B323160076F812 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E10A4E727B3230E0076F812 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					5E10A4F227B323160076F812 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5E10A4F827B323160076F812 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					5E10A4FF27B323160076F812 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5E10A4F227B323160076F812;
+					};
+					5E10A50B27B323160076F812 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = 5E10A4F827B323160076F812;
+					};
+				};
+			};
+			buildConfigurationList = 5E10A4EA27B3230E0076F812 /* Build configuration list for PBXProject "Hw3BrocPashia" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E10A4E627B3230E0076F812;
+			productRefGroup = 5E10A4F427B323160076F812 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E10A4F227B323160076F812 /* Hw3BrocPashia (iOS) */,
+				5E10A4F827B323160076F812 /* Hw3BrocPashia (macOS) */,
+				5E10A4FF27B323160076F812 /* Tests iOS */,
+				5E10A50B27B323160076F812 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E10A4F127B323160076F812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E10A51827B323160076F812 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A4F727B323160076F812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E10A51927B323160076F812 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A4FE27B323160076F812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A50A27B323160076F812 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E10A4EF27B323160076F812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E10A51627B323160076F812 /* ContentView.swift in Sources */,
+				5E10A51427B323160076F812 /* Hw3BrocPashiaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A4F527B323160076F812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E10A51727B323160076F812 /* ContentView.swift in Sources */,
+				5E10A51527B323160076F812 /* Hw3BrocPashiaApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A4FC27B323160076F812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E10A50727B323160076F812 /* Tests_iOSLaunchTests.swift in Sources */,
+				5E10A50527B323160076F812 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E10A50827B323160076F812 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E10A51327B323160076F812 /* Tests_macOSLaunchTests.swift in Sources */,
+				5E10A51127B323160076F812 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E10A50227B323160076F812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E10A4F227B323160076F812 /* Hw3BrocPashia (iOS) */;
+			targetProxy = 5E10A50127B323160076F812 /* PBXContainerItemProxy */;
+		};
+		5E10A50E27B323160076F812 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E10A4F827B323160076F812 /* Hw3BrocPashia (macOS) */;
+			targetProxy = 5E10A50D27B323160076F812 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E10A51A27B323160076F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E10A51B27B323160076F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		5E10A51D27B323160076F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Hw3BrocPashia;
+				PRODUCT_NAME = Hw3BrocPashia;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E10A51E27B323160076F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Hw3BrocPashia;
+				PRODUCT_NAME = Hw3BrocPashia;
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E10A52027B323160076F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Hw3BrocPashia;
+				PRODUCT_NAME = Hw3BrocPashia;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		5E10A52127B323160076F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Broc.Hw3BrocPashia;
+				PRODUCT_NAME = Hw3BrocPashia;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		5E10A52327B323160076F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Broc.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hw3BrocPashia (iOS)";
+			};
+			name = Debug;
+		};
+		5E10A52427B323160076F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Broc.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Hw3BrocPashia (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E10A52627B323160076F812 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Broc.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Hw3BrocPashia (macOS)";
+			};
+			name = Debug;
+		};
+		5E10A52727B323160076F812 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Broc.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Hw3BrocPashia (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E10A4EA27B3230E0076F812 /* Build configuration list for PBXProject "Hw3BrocPashia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E10A51A27B323160076F812 /* Debug */,
+				5E10A51B27B323160076F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E10A51C27B323160076F812 /* Build configuration list for PBXNativeTarget "Hw3BrocPashia (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E10A51D27B323160076F812 /* Debug */,
+				5E10A51E27B323160076F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E10A51F27B323160076F812 /* Build configuration list for PBXNativeTarget "Hw3BrocPashia (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E10A52027B323160076F812 /* Debug */,
+				5E10A52127B323160076F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E10A52227B323160076F812 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E10A52327B323160076F812 /* Debug */,
+				5E10A52427B323160076F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E10A52527B323160076F812 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E10A52627B323160076F812 /* Debug */,
+				5E10A52727B323160076F812 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E10A4E727B3230E0076F812 /* Project object */;
+}
