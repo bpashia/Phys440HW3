@@ -17,6 +17,28 @@
 		5E10A51727B323160076F812 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A4ED27B3230F0076F812 /* ContentView.swift */; };
 		5E10A51827B323160076F812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E10A4EE27B323150076F812 /* Assets.xcassets */; };
 		5E10A51927B323160076F812 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E10A4EE27B323150076F812 /* Assets.xcassets */; };
+		5E10A52927B3240B0076F812 /* MonteCarloIntegrationProblem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A52827B3240B0076F812 /* MonteCarloIntegrationProblem1.swift */; };
+		5E10A52A27B3240B0076F812 /* MonteCarloIntegrationProblem1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E10A52827B3240B0076F812 /* MonteCarloIntegrationProblem1.swift */; };
+		5E70FD8927B6C06800CBF4A4 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 5E70FD8827B6C06800CBF4A4 /* CorePlot */; };
+		5E70FD8B27B6C0E600CBF4A4 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70FD8A27B6C0E600CBF4A4 /* CorePlot.swift */; };
+		5E70FD8C27B6C0E600CBF4A4 /* CorePlot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70FD8A27B6C0E600CBF4A4 /* CorePlot.swift */; };
+		5E70FD8F27B6C39800CBF4A4 /* CorePlot in Frameworks */ = {isa = PBXBuildFile; productRef = 5E70FD8E27B6C39800CBF4A4 /* CorePlot */; };
+		5E70FD9127B6C4D800CBF4A4 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70FD9027B6C4D800CBF4A4 /* PlotDataClass.swift */; };
+		5E70FD9227B6C4D800CBF4A4 /* PlotDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70FD9027B6C4D800CBF4A4 /* PlotDataClass.swift */; };
+		5E70FD9427B6C7A300CBF4A4 /* ShieldingProblem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70FD9327B6C7A300CBF4A4 /* ShieldingProblem2.swift */; };
+		5E70FD9527B6C7A300CBF4A4 /* ShieldingProblem2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70FD9327B6C7A300CBF4A4 /* ShieldingProblem2.swift */; };
+		5E70FD9727B6C88300CBF4A4 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70FD9627B6C88300CBF4A4 /* DrawingView.swift */; };
+		5E70FD9827B6C88300CBF4A4 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E70FD9627B6C88300CBF4A4 /* DrawingView.swift */; };
+		5EDC56A027BF0C0C00B8178B /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC569F27BF0C0C00B8178B /* BoundingBox.swift */; };
+		5EDC56A127BF0C0C00B8178B /* BoundingBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC569F27BF0C0C00B8178B /* BoundingBox.swift */; };
+		5EDC56A327BF42A000B8178B /* OverlapIntegralProblem3&4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56A227BF42A000B8178B /* OverlapIntegralProblem3&4.swift */; };
+		5EDC56A427BF42A000B8178B /* OverlapIntegralProblem3&4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56A227BF42A000B8178B /* OverlapIntegralProblem3&4.swift */; };
+		5EDC56A627BF705700B8178B /* Problem5KochSnowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56A527BF705700B8178B /* Problem5KochSnowflake.swift */; };
+		5EDC56A727BF705700B8178B /* Problem5KochSnowflake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56A527BF705700B8178B /* Problem5KochSnowflake.swift */; };
+		5EDC56A927BF708700B8178B /* Problem5KochSnowlfakeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56A827BF708700B8178B /* Problem5KochSnowlfakeFunctions.swift */; };
+		5EDC56AA27BF708700B8178B /* Problem5KochSnowlfakeFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56A827BF708700B8178B /* Problem5KochSnowlfakeFunctions.swift */; };
+		5EDC56AC27BF70AC00B8178B /* Problem5KochSnowflakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56AB27BF70AC00B8178B /* Problem5KochSnowflakeView.swift */; };
+		5EDC56AD27BF70AC00B8178B /* Problem5KochSnowflakeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EDC56AB27BF70AC00B8178B /* Problem5KochSnowflakeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +71,16 @@
 		5E10A50C27B323160076F812 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E10A51027B323160076F812 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		5E10A51227B323160076F812 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		5E10A52827B3240B0076F812 /* MonteCarloIntegrationProblem1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloIntegrationProblem1.swift; sourceTree = "<group>"; };
+		5E70FD8A27B6C0E600CBF4A4 /* CorePlot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CorePlot.swift; sourceTree = "<group>"; };
+		5E70FD9027B6C4D800CBF4A4 /* PlotDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlotDataClass.swift; sourceTree = "<group>"; };
+		5E70FD9327B6C7A300CBF4A4 /* ShieldingProblem2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldingProblem2.swift; sourceTree = "<group>"; };
+		5E70FD9627B6C88300CBF4A4 /* DrawingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
+		5EDC569F27BF0C0C00B8178B /* BoundingBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BoundingBox.swift; sourceTree = "<group>"; };
+		5EDC56A227BF42A000B8178B /* OverlapIntegralProblem3&4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "OverlapIntegralProblem3&4.swift"; sourceTree = "<group>"; };
+		5EDC56A527BF705700B8178B /* Problem5KochSnowflake.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem5KochSnowflake.swift; sourceTree = "<group>"; };
+		5EDC56A827BF708700B8178B /* Problem5KochSnowlfakeFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem5KochSnowlfakeFunctions.swift; sourceTree = "<group>"; };
+		5EDC56AB27BF70AC00B8178B /* Problem5KochSnowflakeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem5KochSnowflakeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E70FD8927B6C06800CBF4A4 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E70FD8F27B6C39800CBF4A4 /* CorePlot in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +125,7 @@
 				5E10A50327B323160076F812 /* Tests iOS */,
 				5E10A50F27B323160076F812 /* Tests macOS */,
 				5E10A4F427B323160076F812 /* Products */,
+				5E70FD8D27B6C33D00CBF4A4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -100,6 +135,16 @@
 				5E10A4EC27B3230F0076F812 /* Hw3BrocPashiaApp.swift */,
 				5E10A4ED27B3230F0076F812 /* ContentView.swift */,
 				5E10A4EE27B323150076F812 /* Assets.xcassets */,
+				5E10A52827B3240B0076F812 /* MonteCarloIntegrationProblem1.swift */,
+				5E70FD8A27B6C0E600CBF4A4 /* CorePlot.swift */,
+				5E70FD9027B6C4D800CBF4A4 /* PlotDataClass.swift */,
+				5E70FD9327B6C7A300CBF4A4 /* ShieldingProblem2.swift */,
+				5E70FD9627B6C88300CBF4A4 /* DrawingView.swift */,
+				5EDC569F27BF0C0C00B8178B /* BoundingBox.swift */,
+				5EDC56A227BF42A000B8178B /* OverlapIntegralProblem3&4.swift */,
+				5EDC56A527BF705700B8178B /* Problem5KochSnowflake.swift */,
+				5EDC56A827BF708700B8178B /* Problem5KochSnowlfakeFunctions.swift */,
+				5EDC56AB27BF70AC00B8178B /* Problem5KochSnowflakeView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -141,6 +186,13 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		5E70FD8D27B6C33D00CBF4A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = SOURCE_ROOT;
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +209,9 @@
 			dependencies = (
 			);
 			name = "Hw3BrocPashia (iOS)";
+			packageProductDependencies = (
+				5E70FD8827B6C06800CBF4A4 /* CorePlot */,
+			);
 			productName = "Hw3BrocPashia (iOS)";
 			productReference = 5E10A4F327B323160076F812 /* Hw3BrocPashia.app */;
 			productType = "com.apple.product-type.application";
@@ -174,6 +229,9 @@
 			dependencies = (
 			);
 			name = "Hw3BrocPashia (macOS)";
+			packageProductDependencies = (
+				5E70FD8E27B6C39800CBF4A4 /* CorePlot */,
+			);
 			productName = "Hw3BrocPashia (macOS)";
 			productReference = 5E10A4F927B323160076F812 /* Hw3BrocPashia.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +307,9 @@
 				Base,
 			);
 			mainGroup = 5E10A4E627B3230E0076F812;
+			packageReferences = (
+				5E70FD8727B6C06800CBF4A4 /* XCRemoteSwiftPackageReference "core-plot" */,
+			);
 			productRefGroup = 5E10A4F427B323160076F812 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -299,8 +360,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E70FD9727B6C88300CBF4A4 /* DrawingView.swift in Sources */,
+				5EDC56AC27BF70AC00B8178B /* Problem5KochSnowflakeView.swift in Sources */,
 				5E10A51627B323160076F812 /* ContentView.swift in Sources */,
+				5E70FD8B27B6C0E600CBF4A4 /* CorePlot.swift in Sources */,
+				5EDC56A027BF0C0C00B8178B /* BoundingBox.swift in Sources */,
+				5EDC56A327BF42A000B8178B /* OverlapIntegralProblem3&4.swift in Sources */,
+				5E70FD9427B6C7A300CBF4A4 /* ShieldingProblem2.swift in Sources */,
+				5EDC56A927BF708700B8178B /* Problem5KochSnowlfakeFunctions.swift in Sources */,
+				5EDC56A627BF705700B8178B /* Problem5KochSnowflake.swift in Sources */,
+				5E70FD9127B6C4D800CBF4A4 /* PlotDataClass.swift in Sources */,
 				5E10A51427B323160076F812 /* Hw3BrocPashiaApp.swift in Sources */,
+				5E10A52927B3240B0076F812 /* MonteCarloIntegrationProblem1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +379,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E70FD9827B6C88300CBF4A4 /* DrawingView.swift in Sources */,
+				5EDC56AD27BF70AC00B8178B /* Problem5KochSnowflakeView.swift in Sources */,
 				5E10A51727B323160076F812 /* ContentView.swift in Sources */,
+				5E70FD8C27B6C0E600CBF4A4 /* CorePlot.swift in Sources */,
+				5EDC56A127BF0C0C00B8178B /* BoundingBox.swift in Sources */,
+				5EDC56A427BF42A000B8178B /* OverlapIntegralProblem3&4.swift in Sources */,
+				5E70FD9527B6C7A300CBF4A4 /* ShieldingProblem2.swift in Sources */,
+				5EDC56AA27BF708700B8178B /* Problem5KochSnowlfakeFunctions.swift in Sources */,
+				5EDC56A727BF705700B8178B /* Problem5KochSnowflake.swift in Sources */,
+				5E70FD9227B6C4D800CBF4A4 /* PlotDataClass.swift in Sources */,
 				5E10A51527B323160076F812 /* Hw3BrocPashiaApp.swift in Sources */,
+				5E10A52A27B3240B0076F812 /* MonteCarloIntegrationProblem1.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -693,6 +774,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5E70FD8727B6C06800CBF4A4 /* XCRemoteSwiftPackageReference "core-plot" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/core-plot/core-plot";
+			requirement = {
+				branch = "release-2.4";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5E70FD8827B6C06800CBF4A4 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E70FD8727B6C06800CBF4A4 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+		5E70FD8E27B6C39800CBF4A4 /* CorePlot */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5E70FD8727B6C06800CBF4A4 /* XCRemoteSwiftPackageReference "core-plot" */;
+			productName = CorePlot;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 5E10A4E727B3230E0076F812 /* Project object */;
 }

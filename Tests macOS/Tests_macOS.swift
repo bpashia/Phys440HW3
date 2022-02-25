@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Hw3BrocPashia
 
 class Tests_macOS: XCTestCase {
 
@@ -29,6 +30,35 @@ class Tests_macOS: XCTestCase {
 
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+    }
+    
+    func calculateSphericalCoordinatesDistance(pointOne:(rVal:Double,thetaVal:Double,phiVal:Double),pointTwo:(rVal:Double,thetaVal:Double,phiVal:Double)) -> Double{
+//        let r1Squared = pow(pointOne.rVal,2.0)
+//        let r2Squared = pow(pointTwo.rVal,2.0)
+//
+//        let resultTrig = (cos(pointOne.thetaVal) * cos(pointTwo.thetaVal) * cos(pointOne.phiVal-pointTwo.phiVal) + (sin(pointOne.thetaVal) * sin(pointTwo.thetaVal)))
+//        let resultR = r1Squared + r2Squared - pointOne.rVal * pointTwo.rVal * 2.0*resultTrig
+        let x = pointOne.rVal*sin(pointOne.phiVal)*cos(pointOne.thetaVal)
+        let xPrime = pointTwo.rVal*sin(pointTwo.phiVal)*cos(pointTwo.thetaVal)
+        let y = pointOne.rVal*sin(pointOne.thetaVal)*sin(pointOne.phiVal)
+        let yPrime = pointTwo.rVal*sin(pointTwo.thetaVal)*sin(pointTwo.phiVal)
+        let z = pointOne.rVal*cos(pointOne.phiVal)
+        let zPrime = pointTwo.rVal*cos(pointTwo.phiVal)
+        
+        print([x,y,z])
+        print([xPrime,yPrime,zPrime])
+        
+        return pow((pow(xPrime-x, 2) + pow(yPrime-y, 2) + pow(zPrime-z, 2)), 0.5)
+    }
+    
+    func testDistance() {
+        
+        
+        
+        let distance = calculateSphericalCoordinatesDistance(pointOne: (2.0, Double.pi, Double.pi/2), pointTwo: (3.0, Double.pi, Double.pi/6))
+        
+        XCTAssertEqual(distance, 2.645751311, accuracy: 1.0E-7, "Was not equal to this resolution.")
+
     }
 
     func testLaunchPerformance() throws {
